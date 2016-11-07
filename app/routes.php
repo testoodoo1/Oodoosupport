@@ -479,7 +479,7 @@ Route::group( array('domain' => 'test.accounts.oodoo.co.in' ), function() {
 
 
 
-    Route::group( array('domain' => 'wsupport.oodoo.co.in' ), function() {
+    Route::group( array('domain' => 'test.support.oodoo.co.in' ), function() {
     
     Route::group( array('before' => 'auth.support'), function() {
 

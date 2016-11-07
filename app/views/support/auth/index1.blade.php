@@ -21,7 +21,7 @@
                 <input id="exampleCheckboxRemember" type="checkbox" value="remember">
                 <label for="exampleCheckboxRemember" class="checkbox-muted text-muted">Remember me</label>
               </div>
-              <div class="pull-right"><a href="forgot.html" class="inline-block form-control-static">Forgot a Passowrd?</a></div>
+              <div class="pull-right"><a href="/forgetPass" class="inline-block form-control-static">Forgot a Passowrd?</a></div>
             </div>
           </div>
           <button type="submit" class="btn-lg btn btn-primary btn-rounded btn-block">Sign in</button>

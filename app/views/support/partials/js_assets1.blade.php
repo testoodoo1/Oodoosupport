@@ -20,3 +20,20 @@
 	{{ HTML::script('/assets/dist/support/js1/') }}
 	{{ HTML::script('/assets/dist/support/js1/') }}
 	{{ HTML::script('/assets/dist/support/js1/') }} -->
+    {{ HTML::script('/assets/dist/support/js/support.js') }}
+    {{ HTML::script('/assets/dist/support/js/jquery.dataTables.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.bootstrap.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.bootstrap.min.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.bootstrap4.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.bootstrap4.min.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.foundation.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.foundation.min.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.jqueryui.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.jqueryui.min.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.material.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.material.min.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.semanticui.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.semanticui.min.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.uikit.js') }}    
+    {{ HTML::script('/assets/dist/support/js/dataTables.uikit.min.js') }}     
+    {{ HTML::script('/assets/dist/support/js/jquery.dataTables.min.js') }}	
