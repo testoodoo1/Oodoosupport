@@ -1,4 +1,4 @@
-@extends('support.layouts.default1')
+@extends('support.layouts.default')
 @section('main')
 <div class="col-md-12">
               <ul class="media-list inbox">

@@ -11,7 +11,6 @@ define('SCOPES', implode(' ', array(
 class ApiController extends \BaseController {
 
 
-
 	public function update() {
 		$client = $this->getClient();
 		$service = new Google_Service_Gmail($client);

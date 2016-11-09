@@ -1,4 +1,4 @@
-    <div class="col-lg-12" id="newTickets" style="display:non;">
+    <div class="col-lg-12" id="newTickets" style="display:none;">
         <div class="panel panel-grey">
             <div class="panel-heading">Complaint</div>
             <div class="panel-body pan">
