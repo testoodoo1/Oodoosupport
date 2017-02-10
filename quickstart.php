@@ -1,4 +1,5 @@
 <?php
+
 require __DIR__ . '/vendor/autoload.php';
 
 define('APPLICATION_NAME', 'Gmail API PHP Quickstart');

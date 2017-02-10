@@ -15,6 +15,7 @@
         </div>
 <div class="portlet-body" id="new_conn" style="display: none;">
  <form action="/ticket/store" method="post">
+        <input type="hidden" name="ticket_type_id" value="27">
                     <div class="form-body pal">
                         <div class="row chat-form">
                             <div class="col-md-6">
@@ -84,7 +85,18 @@
                                         <div class="input-icon right">
                                             <textarea style="height: 3cm;" name="message" type="text" placeholder="" class="form-control" required></textarea>
                                             </div>
-                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    <label class="control-label">Assign To: </label>
+                                    <select class="form-control" name="employee_id" required>
+                                        <option value="">Select Employee</option>
+                                        @foreach($employees as $employee )
+                                                <option value="{{$employee->employee_identity}}">
+                                                   {{$employee->name}} ({{$employee->employee_identity}})
+                                                </option>
+                                        @endforeach
+                                    </select>
+                                    </div>                                    
                                 </div>                                   
                                 </div>
 

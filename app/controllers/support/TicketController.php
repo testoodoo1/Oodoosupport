@@ -13,6 +13,7 @@ class TicketController extends \BaseController {
 		$ticket->email = Input::get('email');
 		$ticket->address = Input::get('address');
 		$ticket->ticket_type_id = Input::get('ticket_type_id');
+		//var_dump(Input::get('ticket_type_id')); die;
 		$ticket->city_id =12;
 		$ticket->requirement = Input::get('requirement');
 		$assigned_to = Input::get('employee_id');

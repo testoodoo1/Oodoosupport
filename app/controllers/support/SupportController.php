@@ -1,6 +1,6 @@
 <?php
 namespace Support;
-use View, BaseController, Masterdata, MailSupport, Mail, PaymentTransaction, Auth, Input, Redirect, CusDet, Ticket, TempAccountDetail, DB, Datatables, Bill, SessionDhh, Response, JAccountDetail, Api, Session;
+use View, BaseController, Masterdata, MailSupport, Employee, Mail, PaymentTransaction, Auth, Input, Redirect, CusDet, Ticket, TempAccountDetail, DB, Datatables, Bill, SessionDhh, Response, JAccountDetail, Api, Session;
 class SupportController extends BaseController {
 	public function index($account_id){
 
@@ -21,6 +21,7 @@ class SupportController extends BaseController {
 
 	public function query(){
 		$data['areas'] =Masterdata::where('type','area')->get();
+		$data['employees'] = Employee::all();		
 		$query = Input::get('query');
 		if($query){
 			$data['cusDet'] = CusDet::where('account_id','like','%'.$query.'%')->orWhere('phone','like','%'.$query.'%')->get();
@@ -224,7 +225,3 @@ class SupportController extends BaseController {
 
 }
 
-
-//OFCHN1089464 mejestic residency
-//seevaram 
-//1088561
